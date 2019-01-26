@@ -4,9 +4,14 @@ import java.util.LinkedList;
 import java.util.Stack;
 
 /**
+ * BFS Solution of 8 Puzzle
+ */
+
+/**
  * @author VPanchal
  *
  */
+
 public class DFSolution {
 	public static void search(String board) {
 		SimpleNode root = new SimpleNode(new BoardState(board, "NULL", 0, 0), null, 0, 0);
